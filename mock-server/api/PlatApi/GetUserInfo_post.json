@@ -1,0 +1,30 @@
+{
+  "Status": 0,
+  "Message": "成功",
+  "Id": "636123474702731730",
+  "Data": {
+    "Id": "33a5256e8b454a5e80b0476f5d489d26",
+    "Name": "nick",
+    "LoginId": "18616786321",
+    "Password": null,
+    "OpenId": "1111111111111112",
+    "IconPath": null,
+    "NickName": null,
+    "Sex": null,
+    "Email": null,
+    "Phone": "18616786321",
+    "UserType": 0,
+    "UserStatus": -1,
+    "Longitude": null,
+    "Latitude": null,
+    "Channel": "Wechat",
+    "LastLoginDate": null,
+    "Card": null,
+    "Remark": null,
+    "CreatedDate": "\/Date(1476721610000)\/",
+    "LastModified": "\/Date(1476721610000)\/",
+    "IsSuspent": false,
+    "IsDeleted": false
+  },
+  "Extend": null
+}

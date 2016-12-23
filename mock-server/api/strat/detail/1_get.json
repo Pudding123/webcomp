@@ -1,0 +1,79 @@
+{"stratInfo": {
+    "stratId": "b710791f94953ddf7b7745c3",
+    "name": "OBV策略（人工智能预测）",
+    "source": 1,
+    "srcIdOfStrat": "b710791f94953ddf7b7745c3c3833bd3",
+    "desc": "该策略模型对两市个股的换手率进行排名，并使用机器学习领域的支持向量机SVM(Support Vector Machine)技术对历史数据进行统计分析，挑选出短期大概率上涨潜力股。",
+    "earningsYield": "-3.40%",
+    "imgUrls": "/static/strat/ai.png;",
+    "imageList": [
+        {
+            "h240": null,
+            "h640": null,
+            "origin": "/static/strat/ai.png",
+            "format": null
+        }
+    ],
+    "lastUpdate": "2016-08-31 09:30:00 更新"
+}, "secuList": [
+    {
+        "symbol": "002806",
+        "marketCd": 2,
+        "symbolName": "华锋股份",
+        "symbolTyp": 3,
+        "inDate": 1472520600000,
+        "inPrice": 71.000,
+        "incr": "-0.49%",
+        "currPrice": 70.650,
+        "inReason": "2016-08-30 09:30:00：华锋股份入选，当前股价70.65元，SVM预测有正收益。",
+        "prevClosePrice": 69.450
+    },
+    {
+        "symbol": "300526",
+        "marketCd": 2,
+        "symbolName": "中潜股份",
+        "symbolTyp": 3,
+        "inDate": 1472520600000,
+        "inPrice": 84.000,
+        "incr": "4.80%",
+        "currPrice": 88.030,
+        "inReason": "2016-08-30 09:30:00：中潜股份入选，当前股价88.03元，SVM预测有正收益。",
+        "prevClosePrice": 86.700
+    },
+    {
+        "symbol": "603778",
+        "marketCd": 1,
+        "symbolName": "乾景园林",
+        "symbolTyp": 3,
+        "inDate": 1472607000000,
+        "inPrice": 30.400,
+        "incr": "1.32%",
+        "currPrice": 30.800,
+        "inReason": "2016-08-31 09:30:00：乾景园林入选，当前股价30.80元，SVM预测有正收益。",
+        "prevClosePrice": 30.840
+    },
+    {
+        "symbol": "002703",
+        "marketCd": 2,
+        "symbolName": "浙江世宝",
+        "symbolTyp": 3,
+        "inDate": 1472607000000,
+        "inPrice": 41.990,
+        "incr": "6.22%",
+        "currPrice": 44.600,
+        "inReason": "2016-08-31 09:30:00：浙江世宝入选，当前股价44.60元，SVM预测有正收益。",
+        "prevClosePrice": 43.170
+    },
+    {
+        "symbol": "300528",
+        "marketCd": 2,
+        "symbolName": "幸福蓝海",
+        "symbolTyp": 3,
+        "inDate": 1472607000000,
+        "inPrice": 41.800,
+        "incr": "9.09%",
+        "currPrice": 45.600,
+        "inReason": "2016-08-31 09:30:00：幸福蓝海入选，当前股价45.60元，SVM预测有正收益。",
+        "prevClosePrice": 41.450
+    }
+]}
