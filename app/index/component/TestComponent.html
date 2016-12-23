@@ -1,0 +1,16 @@
+<div lkg-text="user.name"></div>
+
+<section lkg-html="user.html"></section>
+
+
+<input type="text" lkg-value="user.name"/>
+
+<input type="checkbox" lkg-checked="user.checked"/>
+
+<div lkg-class="user.checked | classFormat">lkg-class</div>
+
+<ul>
+    <li lkg-each-item="list">
+        <input type="checkbox" lkg-checked="item.checked"> { item.name }
+    </li>
+</ul>
