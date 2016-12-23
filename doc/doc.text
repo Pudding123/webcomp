@@ -1,0 +1,24 @@
+## 环境构建
+
+# 安装grunt
+- `npm install`．
+
+# 启动本地模拟服务
+- `grunt server`．浏览器访问http://localhost:9001/index.html
+
+# 自动编译template以及less
+- `grunt watch`．
+
+# 模板编译
+- `grunt jst`．
+
+# 项目打包
+- `grunt dist`．(注意:必须在config文件夹下面的dist.json配置对应的页面)
+
+# 生成文档
+- `grunt yuidoc`．
+
+## 项目开发
+
+页面(A) 由 A.html文件 以及app/A文件夹组成。
+app/A文件夹 包括config.js app.js 以及页面组件文件夹

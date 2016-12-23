@@ -1,0 +1,2599 @@
+{
+    "project": {
+        "name": "eagle-app",
+        "description": "人人财务后台管理系统",
+        "version": "0.0.1",
+        "url": ""
+    },
+    "files": {
+        "app/common/component/AsideComp.js": {
+            "name": "app/common/component/AsideComp.js",
+            "modules": {},
+            "classes": {
+                "AsideComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/component/FooterComp.js": {
+            "name": "app/common/component/FooterComp.js",
+            "modules": {},
+            "classes": {
+                "FooterComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/component/HeaderComp.js": {
+            "name": "app/common/component/HeaderComp.js",
+            "modules": {},
+            "classes": {
+                "HeaderComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/ajax.js": {
+            "name": "app/common/ajax.js",
+            "modules": {},
+            "classes": {
+                "common.Ajax": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/application.js": {
+            "name": "app/common/application.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/common.util.js": {
+            "name": "app/common/common.util.js",
+            "modules": {},
+            "classes": {
+                "common.CommonUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/component.js": {
+            "name": "app/common/component.js",
+            "modules": {},
+            "classes": {
+                "common.Component": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/core.js": {
+            "name": "app/common/core.js",
+            "modules": {},
+            "classes": {
+                "common.Core": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/event.bus.js": {
+            "name": "app/common/event.bus.js",
+            "modules": {},
+            "classes": {
+                "common.EventBus": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/history.js": {
+            "name": "app/common/history.js",
+            "modules": {},
+            "classes": {
+                "common.History": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/router.js": {
+            "name": "app/common/router.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/ui.helper.js": {
+            "name": "app/common/ui.helper.js",
+            "modules": {},
+            "classes": {
+                "common.UIHelper": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/common/watch.dog.js": {
+            "name": "app/common/watch.dog.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/component/chart/ChartComp.js": {
+            "name": "app/index/component/chart/ChartComp.js",
+            "modules": {},
+            "classes": {
+                "ChartComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/component/list/ListComp.js": {
+            "name": "app/index/component/list/ListComp.js",
+            "modules": {},
+            "classes": {
+                "ListComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/component/MainComp.js": {
+            "name": "app/index/component/MainComp.js",
+            "modules": {},
+            "classes": {
+                "MainComp": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/component/TestComponent.js": {
+            "name": "app/index/component/TestComponent.js",
+            "modules": {},
+            "classes": {
+                "TestComponent": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/app.js": {
+            "name": "app/index/app.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/app.router.js": {
+            "name": "app/index/app.router.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/index/config.js": {
+            "name": "app/index/config.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/login/app.js": {
+            "name": "app/login/app.js",
+            "modules": {},
+            "classes": {
+                "App": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/login/config.js": {
+            "name": "app/login/config.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "app/lib.config.js": {
+            "name": "app/lib.config.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "AsideComp": {
+            "name": "AsideComp",
+            "shortname": "AsideComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/component/AsideComp.js",
+            "line": 16,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "FooterComp": {
+            "name": "FooterComp",
+            "shortname": "FooterComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/component/FooterComp.js",
+            "line": 16,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "HeaderComp": {
+            "name": "HeaderComp",
+            "shortname": "HeaderComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/component/HeaderComp.js",
+            "line": 18,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "common.Ajax": {
+            "name": "common.Ajax",
+            "shortname": "common.Ajax",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/ajax.js",
+            "line": 13,
+            "description": "Ajax扩展类",
+            "is_constructor": 1
+        },
+        "common.CommonUtil": {
+            "name": "common.CommonUtil",
+            "shortname": "common.CommonUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/common.util.js",
+            "line": 9,
+            "description": "工具类"
+        },
+        "common.Component": {
+            "name": "common.Component",
+            "shortname": "common.Component",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/component.js",
+            "line": 12,
+            "description": "基础组件"
+        },
+        "common.Core": {
+            "name": "common.Core",
+            "shortname": "common.Core",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/core.js",
+            "line": 12,
+            "is_constructor": 1
+        },
+        "common.EventBus": {
+            "name": "common.EventBus",
+            "shortname": "common.EventBus",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/event.bus.js",
+            "line": 12,
+            "description": "Ajax扩展类"
+        },
+        "common.History": {
+            "name": "common.History",
+            "shortname": "common.History",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/history.js",
+            "line": 18,
+            "is_constructor": 1
+        },
+        "common.UIHelper": {
+            "name": "common.UIHelper",
+            "shortname": "common.UIHelper",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/common/ui.helper.js",
+            "line": 6,
+            "description": "工具类"
+        },
+        "ChartComp": {
+            "name": "ChartComp",
+            "shortname": "ChartComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 17,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "ListComp": {
+            "name": "ListComp",
+            "shortname": "ListComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/index/component/list/ListComp.js",
+            "line": 18,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "MainComp": {
+            "name": "MainComp",
+            "shortname": "MainComp",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/index/component/MainComp.js",
+            "line": 26,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "TestComponent": {
+            "name": "TestComponent",
+            "shortname": "TestComponent",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/index/component/TestComponent.js",
+            "line": 16,
+            "description": "组件描述",
+            "is_constructor": 1
+        },
+        "App": {
+            "name": "App",
+            "shortname": "App",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app/login/app.js",
+            "line": 9,
+            "description": "App 应用入口类"
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 32,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 45,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 54,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 64,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 74,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 96,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/AsideComp.js",
+            "line": 116,
+            "description": "设置个人信息。",
+            "itemtype": "method",
+            "name": "_setUserInfo",
+            "access": "private",
+            "tagname": "",
+            "class": "AsideComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 29,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 42,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 51,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 61,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 71,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/FooterComp.js",
+            "line": 93,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "FooterComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 31,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 44,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 53,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 63,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 75,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 97,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 116,
+            "description": "界面渲染后执行方法，可重写。",
+            "itemtype": "method",
+            "name": "fetchData",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "\"user_type\": 0, \"id\": \"33a5256e8b454a5e80b0476f5d489d26\""
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/component/HeaderComp.js",
+            "line": 135,
+            "description": "设置个人信息。",
+            "itemtype": "method",
+            "name": "_setUserInfo",
+            "access": "private",
+            "tagname": "",
+            "class": "HeaderComp"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 1,
+            "description": "Created by yanghl on 16-5-19.",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 18,
+            "description": "Ajax Request执行前",
+            "itemtype": "property",
+            "name": "_beforeSendHandler",
+            "type": "{Array}",
+            "default": "[]",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 27,
+            "description": "初始化完了Flg",
+            "itemtype": "property",
+            "name": "_initialized",
+            "type": "{boolean}",
+            "default": "false",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 36,
+            "description": "loading TExt",
+            "itemtype": "property",
+            "name": "_loadingText",
+            "type": "{string}",
+            "default": "\"\"",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 45,
+            "description": "loading 有效/无效",
+            "itemtype": "property",
+            "name": "_maskEnabled",
+            "type": "{boolean}",
+            "default": "true",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 54,
+            "description": "loading 调用",
+            "itemtype": "property",
+            "name": "_stack",
+            "type": "{DialogController[]}",
+            "default": "[]",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 63,
+            "description": "Alert DIALOG",
+            "itemtype": "property",
+            "name": "_alert",
+            "type": "{DialogController}",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 75,
+            "static": 1,
+            "itemtype": "method",
+            "name": "getInstance",
+            "return": {
+                "description": "",
+                "type": "app.framework.common.SessionManager"
+            },
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 87,
+            "description": "Eagle用AjaxParam设定",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setupGlobalSettings",
+            "params": [
+                {
+                    "name": "setting",
+                    "description": "",
+                    "type": "JQueryAjaxSettings",
+                    "optional": true
+                }
+            ],
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 102,
+            "description": "Ajax送信前向追加处理",
+            "static": 1,
+            "itemtype": "method",
+            "name": "addBeforeSendHandler",
+            "params": [
+                {
+                    "name": "fn",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 112,
+            "description": "Ajax送信前向追加处理增删除",
+            "static": 1,
+            "itemtype": "method",
+            "name": "clearBeforeSendHandler",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 122,
+            "static": 1,
+            "itemtype": "method",
+            "name": "setRedirectTo",
+            "params": [
+                {
+                    "name": "to",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 132,
+            "static": 1,
+            "itemtype": "method",
+            "name": "enableMask",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 141,
+            "static": 1,
+            "itemtype": "method",
+            "name": "disableMask",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 154,
+            "description": "初始化",
+            "static": 1,
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 171,
+            "description": "设置loading 文字",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setLoadingText",
+            "params": [
+                {
+                    "name": "text",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 181,
+            "itemtype": "method",
+            "name": "_setupBeforeSend",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 201,
+            "itemtype": "method",
+            "name": "_customizeAjax",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 248,
+            "itemtype": "method",
+            "name": "_mask",
+            "access": "private",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "noMask",
+                    "description": ""
+                }
+            ],
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 268,
+            "itemtype": "method",
+            "name": "_canShowMask",
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 277,
+            "itemtype": "method",
+            "name": "_startWatchDog",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/ajax.js",
+            "line": 296,
+            "itemtype": "method",
+            "name": "_unmask",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Ajax"
+        },
+        {
+            "file": "app/common/application.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/21.",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/application.js",
+            "line": 15,
+            "description": "Application 初始化方法",
+            "itemtype": "method",
+            "name": "initialize",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/application.js",
+            "line": 22,
+            "description": "application唯一ID",
+            "itemtype": "property",
+            "name": "cid",
+            "type": "{String}",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/application.js",
+            "line": 37,
+            "description": "Application 初始化方法",
+            "itemtype": "method",
+            "name": "initialize",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/application.js",
+            "line": 63,
+            "description": "设置元素",
+            "itemtype": "method",
+            "name": "_setElement",
+            "params": [
+                {
+                    "name": "el",
+                    "description": ""
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 1,
+            "description": "Created by yanghl on 2016/5/23.",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 15,
+            "description": "显示小数点后几位",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 20,
+            "description": "显示小数点后几位",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 25,
+            "description": "显示小数点后几位",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 32,
+            "description": "判断是否为空",
+            "itemtype": "method",
+            "name": "isEmpty",
+            "params": [
+                {
+                    "name": "val",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 43,
+            "description": "工具类 获取url 参数",
+            "itemtype": "method",
+            "name": "getUrlParam",
+            "access": "private",
+            "tagname": "",
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 65,
+            "description": "判断是不是数字",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isNumeric",
+            "params": [
+                {
+                    "name": "src",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 79,
+            "description": "小数点第３位以(DECIMAL_PLACE = 2)",
+            "itemtype": "method",
+            "name": "floor",
+            "params": [
+                {
+                    "name": "text",
+                    "description": ""
+                },
+                {
+                    "name": "decimalPlace",
+                    "description": "",
+                    "optional": true,
+                    "optdefault": "DECIMAL_PLACE"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "static": 1,
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 99,
+            "description": "小数点第３位以(DECIMAL_PLACE = 2)",
+            "itemtype": "method",
+            "name": "floor",
+            "params": [
+                {
+                    "name": "text",
+                    "description": ""
+                },
+                {
+                    "name": "decimalPlace",
+                    "description": "",
+                    "optional": true,
+                    "optdefault": "DECIMAL_PLACE"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "static": 1,
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 119,
+            "description": "更新样式  为红色 -为绿色",
+            "itemtype": "method",
+            "name": "",
+            "params": [
+                {
+                    "name": "$el",
+                    "description": ""
+                },
+                {
+                    "name": "val",
+                    "description": ""
+                },
+                {
+                    "name": "option",
+                    "description": "",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "_raw",
+                            "description": "",
+                            "optional": true
+                        }
+                    ]
+                }
+            ],
+            "static": 1,
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/common.util.js",
+            "line": 139,
+            "description": "判断百分百是否为负数",
+            "params": [
+                {
+                    "name": "str",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "common.CommonUtil"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 1,
+            "description": "Created by yanghl on 16-5-19.",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 18,
+            "description": "Component 初始化方法",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 24,
+            "description": "组件唯一ID",
+            "itemtype": "property",
+            "name": "cid",
+            "type": "{String}",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 31,
+            "description": "是否已经渲染",
+            "itemtype": "property",
+            "name": "rendered",
+            "type": "{Boolean}",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 40,
+            "description": "是否延迟渲染 如果延迟渲染的话,则渲染的时候不执行render方法",
+            "itemtype": "property",
+            "name": "rendered",
+            "type": "{Boolean}",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 48,
+            "description": "是否已经绑定",
+            "itemtype": "property",
+            "name": "hasViewBind",
+            "type": "{boolean}",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 66,
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": ""
+                }
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 75,
+            "description": "执行初始化所有的子ViewController，包括存储",
+            "access": "private",
+            "tagname": "",
+            "itemtype": "method",
+            "name": "_initController",
+            "options": "",
+            "example": [
+                " components= {};\n  components[PAGE.CTR_MENU] = {\n      klass: component,\n      rel: PAGE.CTR_MENU,\n      el:\".x-more-container\",\n      data:{\n          groupID:groupID\n      }\n  };"
+            ],
+            "return": {
+                "description": "null"
+            },
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 117,
+            "description": "渲染组件",
+            "itemtype": "method",
+            "name": "renderComponents",
+            "params": [
+                {
+                    "name": "components",
+                    "description": ""
+                }
+            ],
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 128,
+            "description": "继续触发事件。",
+            "itemtype": "method",
+            "name": "_setComponents",
+            "params": [
+                {
+                    "name": "components",
+                    "description": ""
+                }
+            ],
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 165,
+            "description": "注册一个模板函数。",
+            "itemtype": "method",
+            "name": "registerFormatFn",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "example": [
+                "  options = {\n  fnName: function,\n}"
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 185,
+            "description": "解除注册一个模板函数。",
+            "itemtype": "method",
+            "name": "unRegisterFormatFn",
+            "params": [
+                {
+                    "name": "fnName",
+                    "description": ""
+                }
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 200,
+            "description": "设置data",
+            "itemtype": "method",
+            "name": "setModel",
+            "params": [
+                {
+                    "name": "model",
+                    "description": ""
+                }
+            ],
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 220,
+            "description": "更新Model绑定值 data",
+            "itemtype": "method",
+            "name": "setModel",
+            "params": [
+                {
+                    "name": "model",
+                    "description": ""
+                }
+            ],
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 237,
+            "description": "设置映射关系。",
+            "itemtype": "method",
+            "name": "_setRelationships",
+            "params": [
+                {
+                    "name": "rel",
+                    "description": ""
+                }
+            ],
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 252,
+            "description": "界面渲染后执行方法，渲染。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 294,
+            "description": "界面渲染后执行方法，可重写。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 303,
+            "description": "根据组件名称 获取组件。",
+            "itemtype": "method",
+            "name": "getComponentByName",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 312,
+            "description": "设置组件名称。",
+            "itemtype": "method",
+            "name": "name //组件名称",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 322,
+            "description": "获取组件名称。",
+            "itemtype": "method",
+            "name": "getComponentName",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 331,
+            "description": "设置组件Element。",
+            "itemtype": "method",
+            "name": "setElement",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 341,
+            "description": "销毁组件",
+            "itemtype": "method",
+            "name": "destroy",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 354,
+            "description": "清空组件下的DOM元素",
+            "itemtype": "method",
+            "name": "empty",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 366,
+            "description": "显示组件",
+            "itemtype": "method",
+            "name": "show",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 378,
+            "description": "隐藏组件",
+            "itemtype": "method",
+            "name": "hide",
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 391,
+            "description": "获取组件ID",
+            "itemtype": "method",
+            "name": "hide",
+            "params": [
+                {
+                    "name": "noSymbol",
+                    "description": "是否带有#标记",
+                    "type": "Boolean"
+                }
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 405,
+            "description": "检测元素是否存在",
+            "itemtype": "method",
+            "name": "_ensureElement",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 423,
+            "description": "创建元素",
+            "itemtype": "method",
+            "name": "_createElement",
+            "params": [
+                {
+                    "name": "tagName",
+                    "description": ""
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 434,
+            "description": "设置元素",
+            "itemtype": "method",
+            "name": "_setElement",
+            "params": [
+                {
+                    "name": "el",
+                    "description": ""
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 453,
+            "description": "设置元素基本属性",
+            "itemtype": "method",
+            "name": "_setAttributes",
+            "params": [
+                {
+                    "name": "attributes",
+                    "description": ""
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/component.js",
+            "line": 463,
+            "description": "清空组件dom",
+            "itemtype": "method",
+            "name": "_removeElement",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Component"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/21.",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 23,
+            "description": "Core 初始化方法",
+            "itemtype": "method",
+            "name": "initialize",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 32,
+            "description": "创建事件绑定",
+            "itemtype": "method",
+            "name": "createEventBindings",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 57,
+            "description": "创建所有事件绑定",
+            "itemtype": "method",
+            "name": "removeEventBindings",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 78,
+            "description": "增加单个事件绑定",
+            "itemtype": "method",
+            "name": "addEventBinding",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "事件类型"
+                },
+                {
+                    "name": "selector",
+                    "description": "选择器"
+                },
+                {
+                    "name": "fn",
+                    "description": "绑定函数"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 100,
+            "description": "解除单个事件绑定",
+            "itemtype": "method",
+            "name": "removeEventBinding",
+            "access": "private",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 120,
+            "description": "绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var events ={};\n\n // createEventName  第一个参数 事件名称, 第二个参数 需要绑定的选择器  第三个指的绑定回调函数。\n events[ this.createEventName(\"click\", \".class\") ] = this.callback;\n return events;\n\n}"
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 138,
+            "description": "创建事件名称",
+            "itemtype": "method",
+            "name": "createEventName",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "类型"
+                },
+                {
+                    "name": "selector",
+                    "description": "选择器"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 150,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "example": [
+                " function(scope, data){\n //scope 作用域, data //dispatch data\n}"
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 175,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "\n{\n   eventName: bindFn    //事件名称和  绑定函数\n}"
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 191,
+            "description": "增加消息订阅",
+            "itemtype": "method",
+            "name": "addSubscribe",
+            "eventname": "{String}订阅事件名称",
+            "callback": "{Function}订阅回调",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 207,
+            "description": "取消所有订阅",
+            "itemtype": "method",
+            "name": "unsubscribe",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 220,
+            "description": "取消一个订阅",
+            "itemtype": "method",
+            "name": "unsubscribeOne",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "callback",
+                    "description": ""
+                },
+                {
+                    "name": "scope",
+                    "description": ""
+                }
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 233,
+            "description": "组件间发送消息",
+            "itemtype": "method",
+            "name": "dispatch",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "args",
+                    "description": "发送的参数"
+                }
+            ],
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 244,
+            "description": "是否已经订阅",
+            "itemtype": "method",
+            "name": "hasSubscribe",
+            "params": [
+                {
+                    "name": "type",
+                    "description": ""
+                },
+                {
+                    "name": "callback",
+                    "description": ""
+                },
+                {
+                    "name": "scope",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "*"
+            },
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 256,
+            "description": "获取服务端数据。",
+            "itemtype": "method",
+            "name": "fetch",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                },
+                {
+                    "name": "post",
+                    "description": "是否使用POST"
+                }
+            ],
+            "example": [
+                "  options = {\n  url: \"\",\n  data: {},\n  success:function(){},\n  error:function(){}\n}"
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 293,
+            "description": "POST提交数据。",
+            "itemtype": "method",
+            "name": "submit",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "example": [
+                "  options = {\n  url: \"\",\n  data: {},\n  success:function(){},\n  error:function(){}\n}"
+            ],
+            "access": "public",
+            "tagname": "",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/core.js",
+            "line": 314,
+            "description": "Core 继承实现",
+            "itemtype": "method",
+            "name": "extend",
+            "class": "common.Core"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/10.",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 36,
+            "description": "History",
+            "itemtype": "method",
+            "name": "atRoot",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 46,
+            "description": "History",
+            "itemtype": "method",
+            "name": "matchRoot",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 57,
+            "description": "History",
+            "itemtype": "method",
+            "name": "decodeFragment",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 66,
+            "description": "History",
+            "itemtype": "method",
+            "name": "getSearch",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 76,
+            "description": "History",
+            "itemtype": "method",
+            "name": "getHash",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/history.js",
+            "line": 85,
+            "description": "History",
+            "itemtype": "method",
+            "name": "getPath",
+            "class": "common.History"
+        },
+        {
+            "file": "app/common/router.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/10.",
+            "class": "common.UIHelper"
+        },
+        {
+            "file": "app/common/router.js",
+            "line": 18,
+            "description": "初始化函数",
+            "params": [
+                {
+                    "name": "options",
+                    "description": ""
+                }
+            ],
+            "class": "common.UIHelper"
+        },
+        {
+            "file": "app/common/router.js",
+            "line": 34,
+            "description": "Router",
+            "itemtype": "method",
+            "name": "initialize",
+            "class": "common.UIHelper"
+        },
+        {
+            "file": "app/common/ui.helper.js",
+            "line": 1,
+            "description": "Created by yanghl on 16-5-25.",
+            "class": "common.UIHelper"
+        },
+        {
+            "file": "app/common/ui.helper.js",
+            "line": 12,
+            "description": "弹出alert框",
+            "itemtype": "method",
+            "name": "showAlert",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "static": 1,
+            "access": "public",
+            "tagname": "",
+            "example": [
+                " {\n  type: UIHelper.TOASTER_SUC,\n  title: \"提示\"，\n  msg : \"消息\"\n }"
+            ],
+            "class": "common.UIHelper"
+        },
+        {
+            "file": "app/common/watch.dog.js",
+            "line": 3,
+            "params": [
+                {
+                    "name": "onTimeOut",
+                    "description": "",
+                    "type": "Function"
+                },
+                {
+                    "name": "interval",
+                    "description": "监视时间间隔 (ms)",
+                    "type": "Number",
+                    "optional": true,
+                    "optdefault": "10*1000"
+                }
+            ],
+            "example": [
+                "\n      var wd = new WatchDog(function(){alert(\"bow-wow\");}, 60*1000);\n      wd.reset(); // 60秒以内reset"
+            ],
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/common/watch.dog.js",
+            "line": 20,
+            "itemtype": "method",
+            "name": "reset",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/common/watch.dog.js",
+            "line": 31,
+            "itemtype": "method",
+            "name": "stop",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 64,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 77,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 86,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 96,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 106,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/chart/ChartComp.js",
+            "line": 128,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "ChartComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 31,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 44,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 53,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 63,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 74,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 96,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/list/ListComp.js",
+            "line": 115,
+            "description": "获取数据",
+            "class": "ListComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/23.",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 62,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 75,
+            "description": "界面渲染前执行方法。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 84,
+            "description": "界面渲染执行方法。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 94,
+            "description": "界面渲染后执行方法。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 107,
+            "description": "dom绑定事件",
+            "itemtype": "method",
+            "name": "bindEvents",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                " function(){\n\n var self= this, events ={};\n events[ this.createEventName(\"click\", \"class or id\") ] = this.callback;\n return events;\n // createEventName  \n     第一个参数 事件名称,\n     第二个参数 需要绑定的选择器。\n     callback  绑定回调函数。接收个参数 function(e){}\n      e 只绑定的事件\n}"
+            ],
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 129,
+            "description": "订阅消息",
+            "itemtype": "method",
+            "name": "subscribe",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "example": [
+                "  function(){\n  var self= this, sub ={};\n  sub[eventName] = self.callback;\n  eventName: 事件名称\n  callback: 绑定回调函数\n  callback 接收两个参数 function(context, data){}\n  context : 谁发送的消息   data: 消息内容。\n}"
+            ],
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 150,
+            "description": "router 接收函数",
+            "params": [
+                {
+                    "name": "context",
+                    "description": ""
+                },
+                {
+                    "name": "data",
+                    "description": ""
+                }
+            ],
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 171,
+            "description": "显示chart",
+            "itemtype": "method",
+            "name": "showChart",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 185,
+            "description": "显示列表",
+            "itemtype": "method",
+            "name": "showList",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 200,
+            "description": "渲染chart",
+            "itemtype": "method",
+            "name": "renderChart",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/MainComp.js",
+            "line": 215,
+            "description": "渲染list",
+            "itemtype": "method",
+            "name": "renderList",
+            "class": "MainComp"
+        },
+        {
+            "file": "app/index/component/TestComponent.js",
+            "line": 1,
+            "description": "Created by yanghailang on 2016/12/20.",
+            "class": "TestComponent"
+        },
+        {
+            "file": "app/index/component/TestComponent.js",
+            "line": 29,
+            "description": "预编译后的模板渲染成html",
+            "itemtype": "method",
+            "name": "template",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Any"
+                }
+            ],
+            "return": {
+                "description": "html",
+                "type": "String"
+            },
+            "class": "TestComponent"
+        },
+        {
+            "file": "app/index/component/TestComponent.js",
+            "line": 42,
+            "description": "界面渲染前执行方法，可重写。",
+            "itemtype": "method",
+            "name": "beforeRender",
+            "access": "public",
+            "tagname": "",
+            "class": "TestComponent"
+        },
+        {
+            "file": "app/index/component/TestComponent.js",
+            "line": 51,
+            "description": "界面渲染后执行方法，渲染。",
+            "itemtype": "method",
+            "name": "render",
+            "access": "public",
+            "tagname": "",
+            "class": "TestComponent"
+        },
+        {
+            "file": "app/index/component/TestComponent.js",
+            "line": 61,
+            "description": "界面渲染后执行方法，可重写。",
+            "itemtype": "method",
+            "name": "afterRender",
+            "access": "public",
+            "tagname": "",
+            "class": "TestComponent"
+        },
+        {
+            "file": "app/index/app.js",
+            "line": 1,
+            "description": "Created by yanghl on 16-5-19.",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.js",
+            "line": 23,
+            "description": "App 实例",
+            "itemtype": "property",
+            "name": "_instance",
+            "type": "{App}",
+            "default": "null",
+            "access": "private",
+            "tagname": "",
+            "static": 1,
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.js",
+            "line": 34,
+            "static": 1,
+            "itemtype": "method",
+            "name": "getInstance",
+            "access": "public",
+            "tagname": "",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.router.js",
+            "line": 1,
+            "description": "Created by yanghl on 2016/5/30.",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.router.js",
+            "line": 11,
+            "description": "默认",
+            "itemtype": "method",
+            "name": "defaultRoute",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.router.js",
+            "line": 21,
+            "description": "默认",
+            "itemtype": "method",
+            "name": "defaultRoute",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.router.js",
+            "line": 32,
+            "description": "chart",
+            "itemtype": "method",
+            "name": "chart",
+            "class": "App"
+        },
+        {
+            "file": "app/index/app.router.js",
+            "line": 42,
+            "description": "list",
+            "itemtype": "method",
+            "name": "chart",
+            "class": "App"
+        },
+        {
+            "file": "app/index/config.js",
+            "line": 1,
+            "description": "Created by yanghl on 2016/8/31.",
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 1,
+            "description": "Created by yanghl on 16-5-19.",
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 17,
+            "description": "应用启动入口",
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 31,
+            "description": "执行登录",
+            "itemtype": "method",
+            "name": "doLogin",
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 43,
+            "description": "执行登录",
+            "itemtype": "method",
+            "name": "_doLogin",
+            "access": "private",
+            "tagname": "",
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 74,
+            "description": "App 实例",
+            "itemtype": "property",
+            "name": "_instance",
+            "type": "{App}",
+            "default": "null",
+            "access": "private",
+            "tagname": "",
+            "static": 1,
+            "class": "App"
+        },
+        {
+            "file": "app/login/app.js",
+            "line": 85,
+            "static": 1,
+            "itemtype": "method",
+            "name": "getInstance",
+            "access": "public",
+            "tagname": "",
+            "class": "App"
+        },
+        {
+            "file": "app/login/config.js",
+            "line": 1,
+            "description": "Created by yanghl on 2016/8/31.",
+            "class": ""
+        },
+        {
+            "file": "app/lib.config.js",
+            "line": 1,
+            "description": "Created by yanghl on 2016/8/31.",
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " app/common/ajax.js:268"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " app/common/common.util.js:139"
+        },
+        {
+            "message": "unknown tag: options",
+            "line": " app/common/component.js:75"
+        },
+        {
+            "message": "unknown tag: eventname",
+            "line": " app/common/core.js:191"
+        },
+        {
+            "message": "unknown tag: callback",
+            "line": " app/common/core.js:191"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " app/common/core.js:244"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/common/component/AsideComp.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/common/component/FooterComp.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/common/component/HeaderComp.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 16-5-19.",
+            "line": " app/common/ajax.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/21.",
+            "line": " app/common/application.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 2016/5/23.",
+            "line": " app/common/common.util.js:1"
+        },
+        {
+            "message": "Missing item type\n显示小数点后几位",
+            "line": " app/common/common.util.js:15"
+        },
+        {
+            "message": "Missing item type\n显示小数点后几位",
+            "line": " app/common/common.util.js:20"
+        },
+        {
+            "message": "Missing item type\n显示小数点后几位",
+            "line": " app/common/common.util.js:25"
+        },
+        {
+            "message": "Missing item type\n判断百分百是否为负数",
+            "line": " app/common/common.util.js:139"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 16-5-19.",
+            "line": " app/common/component.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/21.",
+            "line": " app/common/core.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/10.",
+            "line": " app/common/history.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/10.",
+            "line": " app/common/router.js:1"
+        },
+        {
+            "message": "Missing item type\n初始化函数",
+            "line": " app/common/router.js:18"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 16-5-25.",
+            "line": " app/common/ui.helper.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " app/common/watch.dog.js:3"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/index/component/chart/ChartComp.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/index/component/list/ListComp.js:1"
+        },
+        {
+            "message": "Missing item type\n获取数据",
+            "line": " app/index/component/list/ListComp.js:115"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/23.",
+            "line": " app/index/component/MainComp.js:1"
+        },
+        {
+            "message": "Missing item type\nrouter 接收函数",
+            "line": " app/index/component/MainComp.js:150"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghailang on 2016/12/20.",
+            "line": " app/index/component/TestComponent.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 16-5-19.",
+            "line": " app/index/app.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 2016/5/30.",
+            "line": " app/index/app.router.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 2016/8/31.",
+            "line": " app/index/config.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 16-5-19.",
+            "line": " app/login/app.js:1"
+        },
+        {
+            "message": "Missing item type\n应用启动入口",
+            "line": " app/login/app.js:17"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 2016/8/31.",
+            "line": " app/login/config.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by yanghl on 2016/8/31.",
+            "line": " app/lib.config.js:1"
+        }
+    ]
+}

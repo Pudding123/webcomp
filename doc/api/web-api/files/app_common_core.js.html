@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>app/common/core.js - eagle-app</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="icon" href="../assets/favicon.ico">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+                <h1><img src="../assets/css/logo.png" title="eagle-app" width="117" height="52"></h1>
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.0.1</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+                    <h2 class="off-left">APIs</h2>
+                    <div id="api-tabview" class="tabview">
+                        <ul class="tabs">
+                            <li><a href="#api-classes">Classes</a></li>
+                            <li><a href="#api-modules">Modules</a></li>
+                        </ul>
+                
+                        <div id="api-tabview-filter">
+                            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+                        </div>
+                
+                        <div id="api-tabview-panel">
+                            <ul id="api-classes" class="apis classes">
+                                <li><a href="../classes/App.html">App</a></li>
+                                <li><a href="../classes/AsideComp.html">AsideComp</a></li>
+                                <li><a href="../classes/ChartComp.html">ChartComp</a></li>
+                                <li><a href="../classes/common.Ajax.html">common.Ajax</a></li>
+                                <li><a href="../classes/common.CommonUtil.html">common.CommonUtil</a></li>
+                                <li><a href="../classes/common.Component.html">common.Component</a></li>
+                                <li><a href="../classes/common.Core.html">common.Core</a></li>
+                                <li><a href="../classes/common.EventBus.html">common.EventBus</a></li>
+                                <li><a href="../classes/common.History.html">common.History</a></li>
+                                <li><a href="../classes/common.UIHelper.html">common.UIHelper</a></li>
+                                <li><a href="../classes/FooterComp.html">FooterComp</a></li>
+                                <li><a href="../classes/HeaderComp.html">HeaderComp</a></li>
+                                <li><a href="../classes/ListComp.html">ListComp</a></li>
+                                <li><a href="../classes/MainComp.html">MainComp</a></li>
+                                <li><a href="../classes/TestComponent.html">TestComponent</a></li>
+                            </ul>
+                
+                
+                            <ul id="api-modules" class="apis modules">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+                    Show:
+                    <label for="api-show-inherited">
+                        <input type="checkbox" id="api-show-inherited" checked>
+                        Inherited
+                    </label>
+            
+                    <label for="api-show-protected">
+                        <input type="checkbox" id="api-show-protected">
+                        Protected
+                    </label>
+            
+                    <label for="api-show-private">
+                        <input type="checkbox" id="api-show-private">
+                        Private
+                    </label>
+                    <label for="api-show-deprecated">
+                        <input type="checkbox" id="api-show-deprecated">
+                        Deprecated
+                    </label>
+            
+                </div>
+            
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+<h1 class="file-heading">File: app/common/core.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/**
+ * Created by yanghailang on 2016/12/21.
+ */
+define(function (require, exports, module) {
+
+    require(&quot;jquery&quot;);
+
+    var EventBus = require(&quot;EventBus&quot;);
+
+    var Core = (function () {
+
+        /**
+         * @class common.Core
+         * @constructor
+         */
+        function Core(options) {
+            options || (options = {});
+
+            this.initialize.apply(this, arguments);
+        }
+
+
+        /**
+         * Core 初始化方法
+         * @method initialize
+         * @param options
+         * */
+        Core.prototype.initialize = function (options) {
+
+        };
+
+        /**
+         * 创建事件绑定
+         * @method createEventBindings
+         * @private
+         */
+        Core.prototype.createEventBindings = function () {
+            var self = this;
+            var events = self.bindEvents();
+            if (_.isObject(events)) {
+                var $document = $(document);
+                self.__bindingEvents = {};
+                _.extend(self.__bindingEvents, events);
+                _.each(events, function (value, key) {
+
+                    var array = key.split(&quot;~&quot;);
+                    var type = array[0];
+                    var selector = array[1];
+
+                    if (!_.isUndefined(type) &amp;&amp; !_.isUndefined(selector)) {
+                        $document.on(type, selector, _.bind(value, self));
+                    }
+                })
+            }
+        };
+
+        /**
+         * 创建所有事件绑定
+         * @method removeEventBindings
+         * @private
+         */
+        Core.prototype.removeEventBindings = function () {
+            var self = this;
+            var events = self.__bindingEvents;
+            if (_.isObject(events)) {
+                var $document = $(document);
+                _.each(events, function (value, key) {
+                    var array = key.split(&quot;~&quot;);
+                    var type = array[0];
+                    var selector = array[1];
+                    if (!_.isUndefined(type) &amp;&amp; !_.isUndefined(selector)) {
+                        $document.off(type, selector);
+                    }
+                })
+            }
+        };
+
+        /**
+         * 增加单个事件绑定
+         * @method addEventBinding
+         * @param type 事件类型
+         * @param selector 选择器
+         * @param fn 绑定函数
+         * @private
+         */
+        Core.prototype.addEventBinding = function (type, selector, fn) {
+            var self = this;
+            var events = self.__bindingEvents;
+            if (_.isObject(events)) {
+                var $document = $(document);
+                var eventName = self.createEventName(type, selector);
+
+                if (!_.isUndefined(type) &amp;&amp; !_.isUndefined(selector) &amp;&amp; !_.isUndefined(fn))
+                    if (_.isUndefined(events[eventName])) {
+                        $document.on(type, selector, _.bind(fn, self));
+                    }
+            }
+        };
+
+        /**
+         * 解除单个事件绑定
+         * @method removeEventBinding
+         * @private
+         */
+        Core.prototype.removeEventBinding = function (type, selector) {
+            var self = this;
+            var events = self.__bindingEvents;
+            if (_.isObject(events)) {
+                var $document = $(document);
+                var eventName = self.createEventName(type, selector);
+
+                if (!_.isUndefined(type) &amp;&amp; !_.isUndefined(selector))
+                    if (!_.isUndefined(events[eventName])) {
+                        $document.on(type, selector);
+                    }
+            }
+        };
+
+
+        /**
+         * 绑定事件
+         * @method bindEvents
+         * @return {Object}
+         * @example function(){
+         *
+         *  var events ={};
+         *
+         *  // createEventName  第一个参数 事件名称, 第二个参数 需要绑定的选择器  第三个指的绑定回调函数。
+         *  events[ this.createEventName(&quot;click&quot;, &quot;.class&quot;) ] = this.callback;
+         *  return events;
+         *
+         * }
+         */
+        Core.prototype.bindEvents = function () {
+            return {};
+        };
+
+        /**
+         * 创建事件名称
+         * @method createEventName
+         * @param type 类型
+         * @param selector 选择器
+         * @return {String}
+         */
+        Core.prototype.createEventName = function (type, selector) {
+            return type + &quot;~&quot; + selector;
+        };
+
+
+        /**
+         * 订阅消息
+         * @method subscribe
+         * @example function(scope, data){
+         *  //scope 作用域, data //dispatch data
+         * }
+         */
+        Core.prototype.createSubscribe = function () {
+            var self = this;
+            //订阅列表
+            self.__subscribe  = self.__subscribe || {};
+            if (_.isFunction(self.subscribe)) {
+                var subs = self.subscribe();
+                if (_.isObject(subs)) {
+                    _.each(subs, function (value, key) {
+                        if (!self.hasSubscribe(key, value, self)) {
+                            self.__subscribe[key] = value;
+                            EventBus.addEventListener(key, value, self);
+                        }
+                    })
+                }
+            }
+        };
+
+
+        /**
+         * 订阅消息
+         * @method subscribe
+         * @return {Object}
+         * @example
+         * {
+         *    eventName: bindFn    //事件名称和  绑定函数
+         * }
+         */
+        Core.prototype.subscribe = function () {
+            return {};
+        };
+
+
+
+
+        /**
+         * 增加消息订阅
+         * @method addSubscribe
+         * @eventName {String}订阅事件名称
+         * @callback {Function}订阅回调
+         */
+        Core.prototype.addSubscribe = function (eventName, callback) {
+            var self = this;
+            if (!self.hasSubscribe(eventName, callback, self)) {
+                self.__subscribe[eventName] = callback;
+                EventBus.addEventListener(eventName, callback, self);
+            }
+        };
+
+
+
+        /**
+         * 取消所有订阅
+         * @method unsubscribe
+         */
+        Core.prototype.unsubscribe = function () {
+            var self = this;
+            if (_.isObject(self.__subscribe)) {
+                _.each(self.__subscribe, function (value, key) {
+                    EventBus.removeEventListener(key, value, self);
+                })
+            }
+        };
+
+        /**
+         * 取消一个订阅
+         * @method unsubscribeOne
+         * @param type
+         * @param callback
+         * @param scope
+         */
+        Core.prototype.unsubscribeOne = function (type, callback) {
+            var self = this;
+            EventBus.removeEventListener(type, callback, this);
+            self.__subscribe[type] = undefined;
+        };
+
+        /**
+         * 组件间发送消息
+         * @method dispatch
+         * @param type
+         * @param args 发送的参数
+         */
+        Core.prototype.dispatch = function (type, args) {
+            var self = this;
+            EventBus.dispatch(type, self, args);
+        };
+
+        /**
+         * 是否已经订阅
+         * @method hasSubscribe
+         * @param type
+         * @param callback
+         * @param scope
+         * @returns {*}
+         */
+        Core.prototype.hasSubscribe = function (type, callback, scope) {
+            return EventBus.hasEventListener(type, callback, scope);
+        };
+
+        /**
+         * 获取服务端数据。
+         * @method fetch
+         * @param options
+         * @param post 是否使用POST {}
+         * @example  options = {
+         *   url: &quot;&quot;,
+         *   data: {},
+         *   success:function(){},
+         *   error:function(){}
+         * }
+         * @public
+         */
+        Core.prototype.fetch = function (options, post) {
+            var self = this;
+            if (typeof options === &quot;undefined&quot;) {
+                options = {};
+            }
+            self.fetched = false;
+            return $.ajax({
+                url: options.url || this.url,
+                type: post ? &quot;POST&quot; : &quot;GET&quot;,
+                data: options.data ? options.data : &quot;&quot;
+            }).done(function (resp) {
+                if (options.success) {
+                    options.success(self, resp, options);
+                }
+            }).fail(function (resp) {
+                if (options.error) {
+                    options.error(self, resp, options);
+                }
+            }).always(function (resp) {
+                self.fetched = true;
+            });
+        };
+
+
+        /**
+         * POST提交数据。
+         * @method submit
+         * @param options
+         * @example  options = {
+         *   url: &quot;&quot;,
+         *   data: {},
+         *   success:function(){},
+         *   error:function(){}
+         * }
+         * @public
+         */
+        Core.prototype.submit = function (options) {
+            var self = this;
+            return self.fetch(options, true);
+        };
+
+        return Core;
+
+    })();
+
+    /**
+     *  Core 继承实现
+     *  @method extend
+     * */
+    var extend = function (protoProps, staticProps) {
+        var parent = this;
+        var child;
+        if (protoProps &amp;&amp; _.has(protoProps, &#x27;constructor&#x27;)) {
+            child = protoProps.constructor;
+        } else {
+            child = function () {
+                return parent.apply(this, arguments);
+            };
+        }
+        _.extend(child, parent, staticProps);
+        var Surrogate = function () {
+            this.constructor = child;
+        };
+        Surrogate.prototype = parent.prototype;
+        child.prototype = new Surrogate;
+        if (protoProps) _.extend(child.prototype, protoProps);
+        child.__super__ = parent.prototype;
+        return child;
+    };
+
+    Core.extend = extend;
+
+    return Core;
+
+});
+
+    </pre>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
